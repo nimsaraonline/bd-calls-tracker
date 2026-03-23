@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 BD Calls - Tracker & Playbook</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+            --accent: #bb86fc;
+            --success: #03dac6;
+            --warning: #cf6679;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 { color: var(--accent); }
+        .container { max-width: 800px; margin: auto; }
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .tag.upcoming { background: var(--accent); color: #000; }
+        .tag.completed { background: var(--success); color: #000; }
+        .tag.learning { background: var(--warning); color: #000; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        ul { padding-left: 20px; }
+        .script-box {
+            background: #2d2d2d;
+            border-left: 4px solid var(--accent);
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 The 100 BD Calls Playbook</h1>
+        <p>Your ultimate companion for Ceylon Cash & Ceypay.io BD calls. Open this on your laptop or phone before any call.</p>
+
+        <div class="card">
+            <h2>📊 Progress Tracker</h2>
+            <p><strong>Completed Calls:</strong> 1 / 100</p>
+            <div style="background: #333; border-radius: 10px; width: 100%; height: 20px;">
+                <div style="background: var(--success); width: 1%; height: 100%; border-radius: 10px;"></div>
+            </div>
+        </div>
+
+        <h2>📅 Upcoming Calls</h2>
+        
+        <div class="card" id="call-anand">
+            <h3><span class="tag upcoming">March 24, 3:00 PM</span> Anand Adhikari (CoinGape News)</h3>
+            <p><strong>Goal:</strong> Network, understand their "Block of Fame", and ask about PR packages for startups.</p>
+            
+            <h4>The Cheat Sheet</h4>
+            <p><strong>1. Ice Breaker:</strong></p>
+            <div class="script-box">
+                "Hi Anand! Great to connect. I saw your recent post about the Global Onchain Summit in Dubai next month! How are the preparations going for that?"
+            </div>
+            
+            <p><strong>2. The Pitch & Bridge:</strong></p>
+            <div class="script-box">
+                "I’m Nima from Ceylon Cash (Sri Lanka). We are building Ceypay.io, a crypto-to-fiat gateway. The main reason I reached out today is actually for networking and learning."
+            </div>
+
+            <p><strong>3. The Safe Asks (If he asks what you want):</strong></p>
+            <div class="script-box">
+                "I saw your 'Block of Fame' initiative. We want to position our brand globally. Could you explain a bit about how that works and what kind of startups usually join that?"<br><br>
+                "When we officially launch Ceypay later this year, what would be the best way to work with CoinGape for PR?"
+            </div>
+            
+            <p><strong>4. Get Out of Jail Free Cards:</strong></p>
+            <ul>
+                <li>"That makes complete sense. I’ll definitely take a note of that."</li>
+                <li>"That’s really interesting. How big is the team handling that at CoinGape?"</li>
+            </ul>
+        </div>
+
+        <h2>✅ Call History & Learnings</h2>
+
+        <div class="card">
+            <h3><span class="tag completed">Completed</span> Samantak Saha (Ledger)</h3>
+            <p><strong>Outcome:</strong> Pitched successfully. Lahiru took over the latter half. Sent affiliate link via Telegram DM later.</p>
+            <h4><span class="tag learning">Lessons Learned</span></h4>
+            <ul>
+                <li><strong>What went well:</strong> Managed to pitch the deck smoothly. Reached out successfully via Calendly.</li>
+                <li><strong>What to improve:</strong> Got stuck when asked "What are you seeking from us?" because Ledger is huge and mostly does global events.</li>
+                <li><strong>Solution for next time:</strong> Always use the <em>"I'm here to network and learn"</em> bridge. Don't go in with a hard sales mindset. Keep a "Safe Ask" ready.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
