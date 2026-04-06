@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.5; font-size: 11pt; }
+h1, h2, h3 { margin: 0; padding: 0; }
+.header { text-align: center; margin-bottom: 20px; }
+.section { margin-bottom: 15px; }
+.section-title { font-size: 14pt; border-bottom: 1px solid #000; margin-bottom: 10px; font-weight: bold; text-transform: uppercase; }
+.item-title { font-weight: bold; }
+.item-subtitle { font-style: italic; margin-bottom: 5px; }
+.right { float: right; }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>UDANA NIMSARA</h1>
+    <p>Web3 BD Professional & Community Builder<br>
+    udananimsara@gmail.com | +94 77 244 8211 | Colombo, Sri Lanka<br>
+    LinkedIn: linkedin.com/in/nimsaraonline</p>
+</div>
+
+<div class="section">
+    <div class="section-title">PROFESSIONAL SUMMARY</div>
+    <p>Passionate Web3 professional with over two years of hands-on experience driving business development, community growth, and technical partnerships in the cryptocurrency sector. Currently managing a robust ecosystem with 42,000+ active users in Sri Lanka and facilitating B2B partnerships for crypto-to-fiat payment gateways. Deeply familiar with the Sri Lankan and broader crypto markets, including key ecosystem players like Binance, Bybit, and Kucoin. Ready to leverage my established KOL network and sales pipelines to accelerate MEXC's user growth and brand presence in Sri Lanka.</p>
+</div>
+
+<div class="section">
+    <div class="section-title">WEB3 BUSINESS DEVELOPMENT & LEADERSHIP</div>
+    
+    <div class="item">
+        <span class="item-title">Business Development (BD) & Ecosystem Partnerships</span> <span class="right">Ceylon Cash (PVT) Ltd | Jun 2024 - Present</span>
+        <ul>
+            <li>Spearheaded a massive B2B outreach campaign (100 BD Calls Challenge) to onboard 100+ local merchants to <b>Ceypay.io</b>, a premier crypto-to-fiat gateway.</li>
+            <li>Negotiated and managed API partnerships with major AML/KYT compliance platforms (e.g., AMLBot) to secure the Ceypay transaction infrastructure.</li>
+            <li>Built and maintained a network of freelance BDs, marketing agencies (Lunar Strategy), and PR platforms (CoinGape News) for global and local positioning.</li>
+            <li>Organized and executed landmark Web3 events in Sri Lanka, including the Global Pizza Party and Web3Ceylon Colombo meetups, successfully driving grassroots adoption.</li>
+            <li>Worked closely with top-tier exchanges (Binance, Bybit) through master aggregate partnerships, actively engaging with a user base of 2M+ KYC'd Sri Lankans.</li>
+        </ul>
+    </div>
+    
+    <br>
+
+    <div class="item">
+        <span class="item-title">Key Opinion Leader (KOL) & Community Manager</span> <span class="right">Mr. Centimetre (Independent) | May 2019 - Present</span>
+        <ul>
+            <li>Grew and manage a highly active Telegram ecosystem (42,000+ total users, 16k-20k active unique reach) dedicated to A/L ICT students and crypto/airdrop enthusiasts (@sri_airdrop, @ICTLibraryOfficial).</li>
+            <li>Act as a trusted local influencer ("Mr. Centimetre") guiding tech adoption, delivering crypto education, and coordinating grassroots Telegram communities.</li>
+            <li>Developed and deployed custom automated Telegram bots to streamline user engagement, content distribution, and 24/7 community support.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">TECHNICAL EXPERIENCE</div>
+    
+    <div class="item">
+        <span class="item-title">Associate Software Engineer</span> <span class="right">Ceylon Cash (PVT) Ltd | Jun 2024 - Present</span>
+        <ul>
+            <li>Developed frontend and backend features for blockchain-based applications, including smart contract integrations for web platforms.</li>
+        </ul>
+    </div>
+    
+    <div class="item">
+        <span class="item-title">Full Stack Developer (Contract)</span> <span class="right">Chainlyze.io | Jun 2024 - Present</span>
+        <ul>
+            <li>Maintained scalable backend systems (TypeScript, PostgreSQL) for real-time blockchain analytics and transaction tracking.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">EDUCATION</div>
+    <div class="item">
+        <span class="item-title">BSc (Hons) in Information Technology</span> <span class="right">University of Moratuwa | 2023 - Present</span>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">SKILLS</div>
+    <ul>
+        <li><b>Business Development:</b> B2B Sales, Partnership Negotiation, Lead Generation, Pipeline Management.</li>
+        <li><b>Web3/Crypto:</b> Ecosystem Growth, CEX/DEX Operations, DeFi, Payment Gateways (Fiat-On/Off-Ramps), Crypto Education.</li>
+        <li><b>Community & Marketing:</b> KOL Management, Event Organization, Telegram Ecosystems, Public Speaking, English/Sinhala Translation.</li>
+        <li><b>Technical:</b> MERN Stack, NestJS, Telegram Bot Automation, Smart Contracts.</li>
+    </ul>
+</div>
+
+</body>
+</html>
